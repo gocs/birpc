@@ -9,7 +9,7 @@ import (
 	"github.com/hajimehoshi/ebiten"
 	"github.com/hajimehoshi/ebiten/ebitenutil"
 
-	pb "gocs.org/birpc/src/proto"
+	pb "github.com/gocs/birpc/src/proto"
 
 	"google.golang.org/grpc"
 )

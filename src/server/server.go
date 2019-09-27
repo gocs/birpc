@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	pb "gocs.org/birpc/src/proto"
+	pb "github.com/gocs/birpc/src/proto"
 	"google.golang.org/grpc"
 )
 
