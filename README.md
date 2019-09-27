@@ -3,7 +3,7 @@
 # goal
 
 simple grpc golang game development\
-lol ping pong game
+lol just capturing cursor
 
 # pre-requisite
 
