@@ -1,11 +1,11 @@
 # birpc
 
-# goal
+## goal
 
 simple grpc golang game development in ebiten\
 lol just capturing cursor
 
-# pre-requisite
+## pre-requisite
 
 `go >1.12`
 
@@ -13,7 +13,7 @@ lol just capturing cursor
 
 save it to `$GOPATH/bin` or `%GOPATH\bin%`
 
-# running
+## running
 
 ```
 protoc --proto_path=src/proto --go_out=plugins=grpc:src/proto mouse.proto
@@ -27,7 +27,7 @@ another terminal
 go run ./src/client/client.go
 ```
 
-# status
+## status
 
 needs more knowledge about game design
 
@@ -38,6 +38,6 @@ esp. client receive
 
 needs update of collision
 
-# LICENSE
+## LICENSE
 
 apache 2.0
