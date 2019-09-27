@@ -46,11 +46,6 @@ func (s server) MousePos(srv pb.MouseService_MousePosServer) error {
 			continue
 		}
 
-		// continue if message is empty
-		// if req.GetPosX() == "" {
-		// 	continue
-		// }
-
 		// update max and send it to stream
 		resp := pb.Pos{PosX: posX, PosY: posX}
 		if err := srv.Send(&resp); err != nil {
