@@ -2,7 +2,7 @@
 
 # goal
 
-simple grpc golang game development\
+simple grpc golang game development in ebiten\
 lol just capturing cursor
 
 # pre-requisite
