@@ -1,0 +1,28 @@
+// syntax = "proto3";
+
+// package protobuf;
+
+// service Math {
+//   rpc Max (stream Request) returns (stream Response) {}
+// }
+
+// message Request {
+//   int32 num = 1;
+// }
+
+// message Response {
+//   int32 result = 1;
+// }
+
+syntax = "proto3";
+
+package protobuf;
+
+service MouseService {
+  rpc MousePos (stream Pos) returns (stream Pos) {}
+}
+
+message Pos {
+  int64 posX = 1;
+  int64 posY = 2;
+}
