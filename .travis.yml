@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - "1.12"
+
+os: windows
+
+install:
+  - export GO111MODULE=on
