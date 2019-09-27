@@ -1,6 +1,7 @@
 # birpc
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/gocs/birpc)](https://goreportcard.com/report/github.com/gocs/birpc)
+[![Go 1.12](https://img.shields.io/badge/go-1.12-7cf.svg)](https://golang.org/dl/)
 
 ## goal
 
