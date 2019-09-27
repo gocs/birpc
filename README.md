@@ -9,7 +9,9 @@ lol just capturing cursor
 
 `go >1.12`
 
-`protoc` from google/protobuf binary
+`protoc` from [protocolbuffers/protobuf releases binary](https://github.com/protocolbuffers/protobuf/releases)
+
+save it to `$GOPATH/bin` or `%GOPATH\bin%`
 
 # running
 
