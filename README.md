@@ -1,5 +1,7 @@
 # birpc
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/gocs/birpc)](https://goreportcard.com/report/github.com/gocs/birpc)
+
 ## goal
 
 simple grpc golang game development in ebiten\
