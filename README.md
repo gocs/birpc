@@ -15,7 +15,7 @@ lol just capturing cursor
 
 `protoc` from [protocolbuffers/protobuf releases binary](https://github.com/protocolbuffers/protobuf/releases)
 
-save it to `$GOPATH/bin` or `%GOPATH\bin%`
+save it to `$GOPATH/bin` in mac or `%GOPATH%\bin` in windows
 
 ## running
 
